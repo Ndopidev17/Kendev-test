@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+    background-color: green;
+    width: 100%;
+    text-align: center;
+}
+.Navbar ul{
+    list-style-type: none;
+}
+.Navbar ul li {
+    display: inline-block;
+    padding: 20px 0;
+} 
+.Navbar ul li a{
+    padding-right: 15px;
+    transition: 0.4s ease;
+    color: white;
+    text-decoration: none;
+    cursor: pointer
+}
+.Navbar ul li a:hover{
+    color: yellow;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background: #000;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.header h1{
+    opacity: 40%;
+    font-family: Verdana;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 250px;
+}
+.aside{
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    background-color: #f2f2f2;
+    color: #000;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 38px;
+    padding: 36px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aside h2{
+    color: blue;
+}
+.aside ul li a{
+    color: black;
+    text-decoration: none;
+}
+.aside b{
+    color: rgb(7, 179, 7);
+}
+.content{
+    width: 1080px;
+    float: right;
+
+}
